@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wobiancao.demo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通标签" />
+
+        <com.wobiancao.demo.tagcloud.TagCloudView
+            android:id="@+id/normalTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:tcvBackground="@drawable/edit_style_blue"
+            app:tcvBorder="6dp"
+            app:tcvCanTagClick="true"
+            app:tcvItemBorderHorizontal="6dp"
+            app:tcvItemBorderVertical="8dp"
+            app:tcvSingleLine="false"
+            app:tcvTextColor="@color/colorPrimaryDark"
+            app:tcvTextSize="14px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="置前标签" />
+
+
+        <com.wobiancao.demo.tagcloud.TagCloudView
+            android:id="@+id/selcetTagUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:tcvBackground="@drawable/edit_style_blue"
+            app:tcvBorder="6dp"
+            app:tcvCanTagClick="true"
+            app:tcvItemBorderHorizontal="6dp"
+            app:tcvItemBorderVertical="8dp"
+            app:tcvSingleLine="false"
+            app:tcvTextColor="@color/colorPrimaryDark"
+            app:tcvTextSize="14px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="定点标签" />
+
+        <com.wobiancao.demo.tagcloud.TagCloudView
+            android:id="@+id/positionsTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:tcvBackground="@drawable/edit_style_blue"
+            app:tcvBorder="6dp"
+            app:tcvCanTagClick="true"
+            app:tcvItemBorderHorizontal="6dp"
+            app:tcvItemBorderVertical="8dp"
+            app:tcvSingleLine="false"
+            app:tcvTextColor="@color/colorPrimaryDark"
+            app:tcvTextSize="14px" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

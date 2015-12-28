@@ -1,6 +1,7 @@
 这两天做了一个项目，发现标签不能更改任意一个标签的字体的颜色，需求如同置前标签，然后就对tagcloudeview稍做修改做了这么一个demo。不为别的，只为以后自己用的时候方便拷贝。
 先看效果图： 
  ![示意图](http://upload-images.jianshu.io/upload_images/1216032-ce5dcef45df13309.gif?imageMogr2/auto-orient/strip)
+ 
 
 这两天做了一个项目，需求如同置前标签，然后就对tagcloudeview稍做修改做了这么一个demo。不为别的，只为以后自己用的时候方便拷贝。
 云标签开源地址https://github.com/kingideayou/TagCloudView
